@@ -1,0 +1,23 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "A simple blockchain implementation",
+  "type": "module",
+  "main": "Blockchain.js",
+  "scripts": {
+    "test": "mocha validationTests.js"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
+

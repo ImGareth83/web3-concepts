@@ -70,6 +70,29 @@ npm install
 npm test
 ```
 
+### 4. Blockchain
+
+A simple blockchain implementation demonstrating the core concepts of blockchain technology, including block creation, chain validation, and tampering detection.
+
+**Features:**
+- Block creation with data and previous hash linking
+- Blockchain validation to ensure chain integrity
+- SHA-256 hashing for block verification
+- Detection of tampering with previous hashes or data
+- Genesis block initialization
+
+**Files:**
+- `Block.js` - Block class with data and hash functionality
+- `Blockchain.js` - Blockchain class with chain management and validation
+- `validationTests.js` - Test suite for blockchain validation
+
+**Usage:**
+```bash
+cd blockchain
+npm install
+npm test
+```
+
 ## Technologies
 
 - **Node.js** - Runtime environment
