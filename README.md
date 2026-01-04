@@ -1,6 +1,25 @@
-# Solidity Projects
+# Web3 Concepts
 
-This repository contains projects from my Alchemy Learning journey, focusing on Ethereum cryptography and blockchain development.
+This repository contains focused, implementation-level explorations of
+core blockchain and Web3 concepts. The work here prioritises first-principles
+understanding of how blockchain systems function under the hood, rather than
+framework-driven application development.
+
+The projects are written in JavaScript using EVM-aligned cryptographic and
+execution models, with an emphasis on correctness, testability, and clarity.
+
+---
+## Purpose
+
+The goal of this repository is to internalise and demonstrate:
+- how cryptographic primitives enable trustless systems
+- how transactions are constructed, signed, and verified
+- how blocks are formed, validated, and chained
+- how tampering and invalid state transitions are detected
+
+This is a **conceptual exploration repository**, not a production codebase.
+
+---
 
 ## Projects
 
